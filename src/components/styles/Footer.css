@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text&display=swap');
+
+footer {
+    display: flex;
+    height: 421px;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer_logo {
+    padding: 190px 0px 190px 0px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+#stacked {
+    flex-flow: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.footer-section-title {
+    color: #495E57;
+    font-family: 'Markazi Text', serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-section-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+

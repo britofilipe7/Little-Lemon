@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text&display=swap');
+
+img {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 20px 20px 20px 10px;
+    font-family: 'Markazi Text', serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}

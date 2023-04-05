@@ -6,6 +6,8 @@ footer {
     justify-content:space-between;
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 #footer_logo {

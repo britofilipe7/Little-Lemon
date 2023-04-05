@@ -8,30 +8,28 @@ const Footer = () => {
             <div className='section'>
                 <img src={Logo} alt="Little lemon logo" id='footer_logo'></img>
             </div>
-            
             <div className='footer-section' id="stacked">
-                <p class="footer-section-title">Doormat Navigation</p>
-                <p class="footer-section-text">Home</p>
-                <p class="footer-section-text">About</p>
-                <p class="footer-section-text">Menu</p>
-                <p class="footer-section-text">Reservations</p>
-                <p class="footer-section-text">Order online</p>
-                <p class="footer-section-text">Login</p>
+                <p className="footer-section-title">Doormat Navigation</p>
+                <p className="footer-section-text">Home</p>
+                <p className="footer-section-text">About</p>
+                <p className="footer-section-text">Menu</p>
+                <p className="footer-section-text">Reservations</p>
+                <p className="footer-section-text">Order online</p>
+                <p className="footer-section-text">Login</p>
             </div>
 
             <div className='footer-section' id="stacked">
-                <p class="footer-section-title">Contact</p>
-                <p class="footer-section-text">Adress</p>
-                <p class="footer-section-text">phone number</p>
-                <p class="footer-section-text">email</p>
+                <p className="footer-section-title">Contact</p>
+                <p className="footer-section-text">Adress</p>
+                <p className="footer-section-text">phone number</p>
+                <p className="footer-section-text">email</p>
             </div>
 
             <div className='footer-section' id="stacked">
-                <p class="footer-section-title">Social Media Links</p>
-                <p class="footer-section-text">Facebook</p>
-                <p class="footer-section-text">Instagram</p>
+                <p className="footer-section-title">Social Media Links</p>
+                <p className="footer-section-text">Facebook</p>
+                <p className="footer-section-text">Instagram</p>
             </div>
-            
         </footer>
     )
 }

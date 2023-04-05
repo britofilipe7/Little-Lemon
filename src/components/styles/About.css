@@ -1,0 +1,14 @@
+.About {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.info p {
+    width: 300px;
+}
+
+#ChefsPhoto {
+    width: 700px;
+}

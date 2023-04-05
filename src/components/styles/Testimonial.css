@@ -1,0 +1,30 @@
+.Testimonial {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+
+.stars {
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.star_solid, .star_regular {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    color: #EE9972;
+    padding: 10px;
+    text-align: center;
+}
+
+.review {
+    padding: 10px;
+    text-align: center;
+}

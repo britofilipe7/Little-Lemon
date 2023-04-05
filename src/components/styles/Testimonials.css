@@ -1,0 +1,19 @@
+.testimonials_container {
+    background-color: #EDEFEE;
+}
+
+.Testimonials {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.Testimonials h1 {
+    text-align: center;
+}
+
+.testimonials_grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

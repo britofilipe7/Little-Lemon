@@ -1,0 +1,45 @@
+.Highlight {
+    background-color: rgb(202, 198, 198);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    max-width: 400px;
+}
+
+.highlight_content {
+    height: 210px;
+    padding: 20px;
+    position: relative;
+}
+
+.image {
+    height: 266px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0px;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name-price #title {
+    font-weight: bold;
+}
+
+.name-price #price {
+    font-weight: bold;
+    color: #EE9972;
+}
+
+.order {
+    position: absolute;
+    bottom: 20px;
+}
+
+#truck {
+    width: 20px;
+    padding: 0 0 0 5px;
+}

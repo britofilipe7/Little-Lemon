@@ -1,0 +1,31 @@
+.highlights {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h3 {
+    font-size: 40px;
+}
+
+.heading button {
+    border-radius: 10px;
+    background-color: #F4CE14;
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.highlights_items {
+    display: flex;
+    justify-content: space-between;
+}

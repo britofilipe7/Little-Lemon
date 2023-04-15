@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Testimonials.css";
+import "../../styles/Testimonials.css";
 import Testimonial from "./Testimonial";
 
 const Testimonials = ({ testimonials_array }) => {

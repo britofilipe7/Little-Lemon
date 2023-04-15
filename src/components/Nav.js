@@ -2,24 +2,38 @@ import React from 'react';
 import Logo from "../components/assets/Logo.svg"
 import "../components/styles/Nav.css"
 
-import { Link as SmoothLink } from "react-scroll";
-import { Link } from 'react-router-dom'
+import { useRef } from 'react';
+
+import {FaBars, FaTimes} from "react-icons/fa";
+
+
 
 const Nav = () => {
+    const navRef = useRef();
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav");
+    }
+
     return (
-        <nav>
-            <div className='navbar'>
-                <img src={Logo} alt="Little lemon logo" id='Logo'/>
-                <ul className="navbarLinks">
-                    <li key={"Home"}><Link className="links" to="/">Home</Link></li>
-                    <li key={"About"}><SmoothLink className="links" to="About" spy={true} smooth={true} duration={1000} offset={-64}>About</SmoothLink></li>
-                    <li key={"Menu"}><SmoothLink className="links" to="Menu" spy={true} smooth={true} duration={1000}>Menu</SmoothLink></li>
-                    <li key={"Reservations"}><Link className="links" to="/booking">Reservations</Link></li>
-                    <li key={"OrderOnline"}><SmoothLink className="links" to="OrderOnline" spy={true} smooth={true} duration={1000}>Order Online</SmoothLink></li>
-                    <li key={"Login"}><SmoothLink className="links" to="Login" spy={true} smooth={true} duration={1000}>Login</SmoothLink></li>
-                </ul>
-            </div>
-        </nav>
+        <header>
+            <img class="logo" src={Logo} alt="Little lemon logo"></img>
+            <nav ref={navRef}>
+            <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+                    <FaTimes/>
+                </button>
+                <a href="/">Home</a>
+                <a href="/">About</a>
+                <a href="/">Menu</a>
+                <a href="/booking">Reservations</a>
+                <a href="/">Order Online</a>
+                <a href="/">Login</a>
+                
+            </nav>
+            <button className='nav-btn' onClick={showNavbar}>
+                <FaBars/>
+            </button>
+        </header>
     )
 }
 

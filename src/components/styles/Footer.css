@@ -2,16 +2,16 @@
 
 footer {
     display: flex;
-    height: 421px;
-    justify-content:space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 1440px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 #footer_logo {
-    padding: 190px 0px 190px 0px;
+    padding: 100px 0px;
 }
 
 .footer-section {
@@ -35,6 +35,10 @@ footer {
 .footer-section-text {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+ a:visited {
+    color: #1E3050;
 }
 
 

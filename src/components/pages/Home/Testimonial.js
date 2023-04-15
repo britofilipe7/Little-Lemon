@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/Testimonial.css";
-import Star_Solid from "./assets/star-solid.svg";
-import Star_Regular from "./assets/star-regular.svg";
+import "../../styles/Testimonial.css";
+import Star_Solid from "../../assets/star-solid.svg";
+import Star_Regular from "../../assets/star-regular.svg";
 
 
 const Testimonial = ({rating, name, review}) => {

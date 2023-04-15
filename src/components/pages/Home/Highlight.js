@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/Highlight.css";
+import "../../styles/Highlight.css";
 
-import truck from "./assets/truck-fast-solid.svg";
+import truck from "../../assets/truck-fast-solid.svg";
 
 const Highlight = ({image, title, price, description}) => {
     return(

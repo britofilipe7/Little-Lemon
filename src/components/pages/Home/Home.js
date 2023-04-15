@@ -1,17 +1,15 @@
 import React from "react";
-import "./styles/Home.css";
+import "../../styles/Home.css";
 
-import Header from "./Header";
-import Nav from "./Nav";
+import Header from "../../Header";
 import Hero from "./Hero";
-import Footer from "./Footer";
 import Highlights from './Highlights';
 import Testimonials from './Testimonials';
 import About from './About';
-import GreekSaladImage from "./assets/greek salad.jpg";
-import BruchettaImage from "./assets/bruchetta.svg";
-import LemonDessertImage from "./assets/lemon dessert.jpg";
-import Logo from "./assets/Logo.svg";
+import GreekSaladImage from "../../assets/greek salad.jpg";
+import BruchettaImage from "../../assets/bruchetta.svg";
+import LemonDessertImage from "../../assets/lemon dessert.jpg";
+import Logo from "../../assets/Logo.svg";
 
 const highlights_data = [
     {
@@ -65,15 +63,12 @@ const Home = () => {
             <meta name="og:title" content="Little Lemon"/>
             <meta name="og:description" content="Little Lemon is a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist"/>
             <meta name="og:image" content={Logo}/>
-            <Nav></Nav>
-            <Header></Header>
             <main>
                 <Hero></Hero>
                 <Highlights highlights_array={highlights_data} />
                 <Testimonials testimonials_array={testimonials_array} />
                 <About></About>
             </main>
-            <Footer></Footer>
     </>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Highlight from "./Highlight";
-import "./styles/Highlights.css";
+import "../../styles/Highlights.css";
 
 const Highlights = ({ highlights_array }) => {
     const highlights = highlights_array.map((highlight) => (

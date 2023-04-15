@@ -1,8 +1,10 @@
 .highlights {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
 .heading {
@@ -13,6 +15,8 @@
 
 .heading h3 {
     font-size: 40px;
+    font-family: "Markazi text", sans-serif;
+    font-size: 3em;
 }
 
 .heading button {
@@ -27,5 +31,12 @@
 
 .highlights_items {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
 }
+
+.Highlight {
+    padding: 20px auto;
+}
+

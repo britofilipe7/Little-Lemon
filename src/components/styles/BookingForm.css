@@ -1,5 +1,41 @@
 form {
     display: grid;
-    max-width: 200px;
     gap: 20px
+}
+
+label {
+    font-weight: bold;
+    font-family: "Markazi Text Medium";
+}
+
+input, select {
+    background-color: #EDEFEE;
+    border: 0;
+    border-radius: 2px;
+    width: 170px;
+}
+
+#comments {
+    max-width: 300px;
+    margin: auto 20px;
+
+}
+
+button {
+    background-color: #495E57;
+    border: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+
+.confirmation-button {
+    text-decoration: none;
+    color: #F4CE14;
+}
+
+.confirmation-button:visited {
+    text-decoration: none;
+    color: #F4CE14;
 }
